@@ -17,10 +17,7 @@ Result outputs in EXCEL format and as .html and json files.
 
 
 Expected format for input:
-ORF	  log2(foldchange)  -log10(p-value)
-2	    2.5			          2
-50	  -2.5			        1.5
-... so on
+ORF,log2(foldchange),-log10(p-value)
 
 Each ORF is tagged as a node and are assigned scores:
 log2(Fold-change) >= 1, 	-log10(p-value) >= 2 		: 10
