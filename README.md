@@ -4,11 +4,17 @@ Proteomining clustering algorithm for biosynthetic gene cluster identification
 Usage: python genome-script.py input proteindb genegap min-members
 
 Arguments:
+
 Input = excel or csv file (see below)
+
 proteindb = fasta or faa files. Fasta files should be results of gene prediction with original ORF number preserved.
+
 Optional:
+
 genegap: Maximum allowed gaps between ORFs, Default = 5
+
 min-members: Minimum nodes in a cluster to be considered, Default = 8
+
 All 3 files need to be in the same directory.
 
 Outputs generated are the interactive html. 
