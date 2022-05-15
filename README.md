@@ -2,7 +2,9 @@
 Proteomining clustering algorithm for biosynthetic gene cluster identification
 
 Usage: python 'Proteomining Clustering.py' input proteindb genegap min-members
+
 To run example:
+
 python 'Proteomining Clustering.py' Example-data-set.csv 'S. coelicolor A3(2) Genome (GeneMarkS).fasta' 5 8
 
 Arguments:
