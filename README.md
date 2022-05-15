@@ -1,7 +1,9 @@
 # Proteomining-Clustering
 Proteomining clustering algorithm for biosynthetic gene cluster identification
 
-Usage: python genome-script.py input proteindb genegap min-members
+Usage: python 'Proteomining Clustering.py' input proteindb genegap min-members
+To run example:
+python 'Proteomining Clustering.py' Example-data-set.csv 'S. coelicolor A3(2) Genome (GeneMarkS).fasta' 5 8
 
 Arguments:
 
@@ -15,7 +17,7 @@ genegap: Maximum allowed gaps between ORFs, Default = 5
 
 min-members: Minimum nodes in a cluster to be considered, Default = 8
 
-All 3 files need to be in the same directory.
+
 
 Outputs generated are the interactive html. 
 
